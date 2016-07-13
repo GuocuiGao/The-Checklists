@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B41E00E31CD2FAC500D2AED6 /* IconPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B41E00E21CD2FAC500D2AED6 /* IconPickerViewController.m */; };
+		B425BEA71CD2C6E0006919BC /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B425BEA61CD2C6E0006919BC /* DataModel.m */; };
+		B45079681CD06D43002F2614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B45079671CD06D43002F2614 /* main.m */; };
+		B450796B1CD06D43002F2614 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B450796A1CD06D43002F2614 /* AppDelegate.m */; };
+		B45079711CD06D43002F2614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B450796F1CD06D43002F2614 /* Main.storyboard */; };
+		B45079731CD06D43002F2614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45079721CD06D43002F2614 /* Assets.xcassets */; };
+		B45079761CD06D43002F2614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45079741CD06D43002F2614 /* LaunchScreen.storyboard */; };
+		B45079811CD06D43002F2614 /* ChecklistsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B45079801CD06D43002F2614 /* ChecklistsUITests.m */; };
+		B45079931CD06E95002F2614 /* ChecklistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45079921CD06E95002F2614 /* ChecklistViewController.m */; };
+		B45079961CD076D5002F2614 /* ChecklistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B45079951CD076D5002F2614 /* ChecklistItem.m */; };
+		B45079991CD0888B002F2614 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45079981CD0888B002F2614 /* ItemDetailViewController.m */; };
+		B450799C1CD1EB1C002F2614 /* AllListsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B450799B1CD1EB1C002F2614 /* AllListsViewController.m */; };
+		B450799F1CD1EEB9002F2614 /* Checklist.m in Sources */ = {isa = PBXBuildFile; fileRef = B450799E1CD1EEB9002F2614 /* Checklist.m */; };
+		B45079A21CD1F4B5002F2614 /* ListDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45079A11CD1F4B5002F2614 /* ListDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B450797D1CD06D43002F2614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B450795B1CD06D43002F2614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B45079621CD06D43002F2614;
+			remoteInfo = Checklists;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B41E00E11CD2FAC500D2AED6 /* IconPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconPickerViewController.h; sourceTree = "<group>"; };
+		B41E00E21CD2FAC500D2AED6 /* IconPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconPickerViewController.m; sourceTree = "<group>"; };
+		B425BEA31CD2C622006919BC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		B425BEA41CD2C622006919BC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B425BEA51CD2C6E0006919BC /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		B425BEA61CD2C6E0006919BC /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		B45079631CD06D43002F2614 /* Checklists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checklists.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45079671CD06D43002F2614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B45079691CD06D43002F2614 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B450796A1CD06D43002F2614 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B45079701CD06D43002F2614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B45079721CD06D43002F2614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B45079751CD06D43002F2614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B45079771CD06D43002F2614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B450797C1CD06D43002F2614 /* ChecklistsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChecklistsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45079801CD06D43002F2614 /* ChecklistsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChecklistsUITests.m; sourceTree = "<group>"; };
+		B45079821CD06D43002F2614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B45079911CD06E95002F2614 /* ChecklistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistViewController.h; sourceTree = "<group>"; };
+		B45079921CD06E95002F2614 /* ChecklistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistViewController.m; sourceTree = "<group>"; };
+		B45079941CD076D5002F2614 /* ChecklistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChecklistItem.h; sourceTree = "<group>"; };
+		B45079951CD076D5002F2614 /* ChecklistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChecklistItem.m; sourceTree = "<group>"; };
+		B45079971CD0888B002F2614 /* ItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		B45079981CD0888B002F2614 /* ItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
+		B450799A1CD1EB1C002F2614 /* AllListsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllListsViewController.h; sourceTree = "<group>"; };
+		B450799B1CD1EB1C002F2614 /* AllListsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllListsViewController.m; sourceTree = "<group>"; };
+		B450799D1CD1EEB9002F2614 /* Checklist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Checklist.h; sourceTree = "<group>"; };
+		B450799E1CD1EEB9002F2614 /* Checklist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Checklist.m; sourceTree = "<group>"; };
+		B45079A01CD1F4B5002F2614 /* ListDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDetailViewController.h; sourceTree = "<group>"; };
+		B45079A11CD1F4B5002F2614 /* ListDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B45079601CD06D43002F2614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45079791CD06D43002F2614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B450795A1CD06D43002F2614 = {
+			isa = PBXGroup;
+			children = (
+				B45079651CD06D43002F2614 /* Checklists */,
+				B450797F1CD06D43002F2614 /* ChecklistsUITests */,
+				B45079641CD06D43002F2614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B45079641CD06D43002F2614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45079631CD06D43002F2614 /* Checklists.app */,
+				B450797C1CD06D43002F2614 /* ChecklistsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B45079651CD06D43002F2614 /* Checklists */ = {
+			isa = PBXGroup;
+			children = (
+				B45079691CD06D43002F2614 /* AppDelegate.h */,
+				B450796A1CD06D43002F2614 /* AppDelegate.m */,
+				B45079941CD076D5002F2614 /* ChecklistItem.h */,
+				B45079951CD076D5002F2614 /* ChecklistItem.m */,
+				B41E00E11CD2FAC500D2AED6 /* IconPickerViewController.h */,
+				B41E00E21CD2FAC500D2AED6 /* IconPickerViewController.m */,
+				B425BEA51CD2C6E0006919BC /* DataModel.h */,
+				B425BEA61CD2C6E0006919BC /* DataModel.m */,
+				B45079A01CD1F4B5002F2614 /* ListDetailViewController.h */,
+				B45079A11CD1F4B5002F2614 /* ListDetailViewController.m */,
+				B450799D1CD1EEB9002F2614 /* Checklist.h */,
+				B450799E1CD1EEB9002F2614 /* Checklist.m */,
+				B450799A1CD1EB1C002F2614 /* AllListsViewController.h */,
+				B450799B1CD1EB1C002F2614 /* AllListsViewController.m */,
+				B45079971CD0888B002F2614 /* ItemDetailViewController.h */,
+				B45079981CD0888B002F2614 /* ItemDetailViewController.m */,
+				B45079911CD06E95002F2614 /* ChecklistViewController.h */,
+				B45079921CD06E95002F2614 /* ChecklistViewController.m */,
+				B450796F1CD06D43002F2614 /* Main.storyboard */,
+				B45079721CD06D43002F2614 /* Assets.xcassets */,
+				B45079741CD06D43002F2614 /* LaunchScreen.storyboard */,
+				B45079771CD06D43002F2614 /* Info.plist */,
+				B45079661CD06D43002F2614 /* Supporting Files */,
+			);
+			path = Checklists;
+			sourceTree = "<group>";
+		};
+		B45079661CD06D43002F2614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B45079671CD06D43002F2614 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B450797F1CD06D43002F2614 /* ChecklistsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B45079801CD06D43002F2614 /* ChecklistsUITests.m */,
+				B45079821CD06D43002F2614 /* Info.plist */,
+			);
+			path = ChecklistsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B45079621CD06D43002F2614 /* Checklists */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45079851CD06D43002F2614 /* Build configuration list for PBXNativeTarget "Checklists" */;
+			buildPhases = (
+				B450795F1CD06D43002F2614 /* Sources */,
+				B45079601CD06D43002F2614 /* Frameworks */,
+				B45079611CD06D43002F2614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checklists;
+			productName = Checklists;
+			productReference = B45079631CD06D43002F2614 /* Checklists.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B450797B1CD06D43002F2614 /* ChecklistsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45079881CD06D43002F2614 /* Build configuration list for PBXNativeTarget "ChecklistsUITests" */;
+			buildPhases = (
+				B45079781CD06D43002F2614 /* Sources */,
+				B45079791CD06D43002F2614 /* Frameworks */,
+				B450797A1CD06D43002F2614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B450797E1CD06D43002F2614 /* PBXTargetDependency */,
+			);
+			name = ChecklistsUITests;
+			productName = ChecklistsUITests;
+			productReference = B450797C1CD06D43002F2614 /* ChecklistsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B450795B1CD06D43002F2614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = GG;
+				TargetAttributes = {
+					B45079621CD06D43002F2614 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 5K28WQ42UU;
+					};
+					B450797B1CD06D43002F2614 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 72RV7AW66X;
+						TestTargetID = B45079621CD06D43002F2614;
+					};
+				};
+			};
+			buildConfigurationList = B450795E1CD06D43002F2614 /* Build configuration list for PBXProject "Checklists" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B450795A1CD06D43002F2614;
+			productRefGroup = B45079641CD06D43002F2614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B45079621CD06D43002F2614 /* Checklists */,
+				B450797B1CD06D43002F2614 /* ChecklistsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B45079611CD06D43002F2614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45079761CD06D43002F2614 /* LaunchScreen.storyboard in Resources */,
+				B45079731CD06D43002F2614 /* Assets.xcassets in Resources */,
+				B45079711CD06D43002F2614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B450797A1CD06D43002F2614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B450795F1CD06D43002F2614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B450796B1CD06D43002F2614 /* AppDelegate.m in Sources */,
+				B41E00E31CD2FAC500D2AED6 /* IconPickerViewController.m in Sources */,
+				B45079681CD06D43002F2614 /* main.m in Sources */,
+				B425BEA71CD2C6E0006919BC /* DataModel.m in Sources */,
+				B450799C1CD1EB1C002F2614 /* AllListsViewController.m in Sources */,
+				B45079931CD06E95002F2614 /* ChecklistViewController.m in Sources */,
+				B45079991CD0888B002F2614 /* ItemDetailViewController.m in Sources */,
+				B45079A21CD1F4B5002F2614 /* ListDetailViewController.m in Sources */,
+				B45079961CD076D5002F2614 /* ChecklistItem.m in Sources */,
+				B450799F1CD1EEB9002F2614 /* Checklist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45079781CD06D43002F2614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45079811CD06D43002F2614 /* ChecklistsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B450797E1CD06D43002F2614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B45079621CD06D43002F2614 /* Checklists */;
+			targetProxy = B450797D1CD06D43002F2614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B450796F1CD06D43002F2614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45079701CD06D43002F2614 /* Base */,
+				B425BEA31CD2C622006919BC /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B45079741CD06D43002F2614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45079751CD06D43002F2614 /* Base */,
+				B425BEA41CD2C622006919BC /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B45079831CD06D43002F2614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B45079841CD06D43002F2614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B45079861CD06D43002F2614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Checklists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggc.ChecklistsSimple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		B45079871CD06D43002F2614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Checklists/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ggc.ChecklistsSimple;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		B45079891CD06D43002F2614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChecklistsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gg.com.ChecklistsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Checklists;
+			};
+			name = Debug;
+		};
+		B450798A1CD06D43002F2614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ChecklistsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gg.com.ChecklistsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Checklists;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B450795E1CD06D43002F2614 /* Build configuration list for PBXProject "Checklists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45079831CD06D43002F2614 /* Debug */,
+				B45079841CD06D43002F2614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45079851CD06D43002F2614 /* Build configuration list for PBXNativeTarget "Checklists" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45079861CD06D43002F2614 /* Debug */,
+				B45079871CD06D43002F2614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45079881CD06D43002F2614 /* Build configuration list for PBXNativeTarget "ChecklistsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45079891CD06D43002F2614 /* Debug */,
+				B450798A1CD06D43002F2614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B450795B1CD06D43002F2614 /* Project object */;
+}

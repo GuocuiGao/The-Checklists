@@ -1,0 +1,24 @@
+
+/* Class = "UINavigationItem"; title = "Checklists"; ObjectID = "BJK-rl-ScK"; */
+"BJK-rl-ScK.title" = "Checklists";
+
+/* Class = "UINavigationItem"; title = "Checklist Name"; ObjectID = "Rwt-0s-kcJ"; */
+"Rwt-0s-kcJ.title" = "Checklist Name";
+
+/* Class = "UILabel"; text = "✅"; ObjectID = "Wn0-i2-oFI"; */
+"Wn0-i2-oFI.text" = "✅";
+
+/* Class = "UITextField"; placeholder = "Name of the Item"; ObjectID = "XfN-WA-jI6"; */
+"XfN-WA-jI6.placeholder" = "Name of the Item";
+
+/* Class = "UITextField"; placeholder = "Name of the List"; ObjectID = "jjJ-9Z-tT8"; */
+"jjJ-9Z-tT8.placeholder" = "Name of the List";
+
+/* Class = "UINavigationItem"; title = "Add Checklist"; ObjectID = "lVe-nH-xlZ"; */
+"lVe-nH-xlZ.title" = "Add Checklist";
+
+/* Class = "UILabel"; text = "Checklist Item"; ObjectID = "smo-vB-cxm"; */
+"smo-vB-cxm.text" = "Checklist Item";
+
+/* Class = "UINavigationItem"; title = "Add Item"; ObjectID = "yo2-g0-OS4"; */
+"yo2-g0-OS4.title" = "Add Item";
